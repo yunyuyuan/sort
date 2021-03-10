@@ -4,8 +4,8 @@ const siteConfig = require('./src/site-config');
 
 module.exports = {
     lintOnSave: false,
-    indexPath: isDev?'index.html':'../404.html',
-    publicPath: isDev?'/':(siteConfig.cdn+'/dist'),
+    // indexPath: isDev?'index.html':'../404.html',
+    // publicPath: isDev?'/':(siteConfig.cdn+'/dist'),
     productionSourceMap: false,
     chainWebpack: config => {
         config.module
