@@ -1,6 +1,6 @@
 import {createRouter, createWebHistory} from 'vue-router'
 
-export const methods = ['bubble', 'selection', 'insertion']
+export const methods = ['bubble', 'selection', 'insertion', 'shell']
 
 export function registerRouter(app) {
   const router = createRouter({

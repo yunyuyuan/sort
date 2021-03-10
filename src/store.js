@@ -5,7 +5,7 @@ export default createStore({
   state: {
     list: [],
     len: 10,
-    duration: 200
+    duration: 500
   },
   mutations: {
     genData(state){
